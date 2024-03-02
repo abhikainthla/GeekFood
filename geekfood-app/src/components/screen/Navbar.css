@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #ffffff;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+}
+
+.nav-contents{
+    display: flex;
+    align-items: center;
+    gap:  3em;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+.logo-name{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}

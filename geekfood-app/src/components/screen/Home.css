@@ -1,0 +1,36 @@
+.home-screen {
+    background-image: url("https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");   
+    background-size: cover;
+    height: 100vh;
+    background-position: 50%;
+    position: relative;
+}
+.home-elements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 36rem;
+    padding: 4rem 2rem;
+}
+
+.home-heading{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 16px;
+    text-align: center;
+}
+
+.home-para {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center; 
+    color: #fff;  
+}
+
+.home-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
