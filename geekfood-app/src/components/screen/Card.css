@@ -1,0 +1,26 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.card-text {
+    background-color: #f3f4f6;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+.card-author{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.card-author h4{
+    line-height: 20px;
+}
+.card-author p{
+    line-height: 20px;
+}
+.card-img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 9999px;
+}

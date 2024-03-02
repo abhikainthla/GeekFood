@@ -1,0 +1,28 @@
+.hero-img {
+    width: 100%;
+    height: auto;
+    z-index: 9;
+}
+.img{
+    width: 600px;
+}
+
+.hero{
+    padding: 4rem 2rem;
+}
+
+.hero-ele{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    padding: 9rem 4rem 9rem 9rem;
+    background-color: #f3f4f6;
+    margin-left: -4.5rem;
+}
+
+.hero-text p{
+    margin: 1.5rem 0;
+}

@@ -1,0 +1,8 @@
+.card-section {
+    display: grid;
+    justify-content: center;
+  gap: 50px;
+  grid-template-columns: 20em 20em 20em;
+  background-color: #2196F3;
+  padding: 1rem;
+}
