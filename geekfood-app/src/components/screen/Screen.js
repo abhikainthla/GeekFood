@@ -3,13 +3,15 @@ import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Footer from "./Footer";
 import HomeCards from "./HomeCards";
+import Reviews from "./Reviews";
 const Screen = () =>{
     return (
         <>
         <Navbar/>
-        <Home/> 
+        {/* <Home/> 
         <Hero/>
-        <HomeCards/>
+        <HomeCards/> */}
+        <Reviews/>
         <Footer/>
         </>
     )
