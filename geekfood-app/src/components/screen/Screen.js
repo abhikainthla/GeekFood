@@ -4,6 +4,7 @@ import Hero from "./Hero";
 import Footer from "./Footer";
 import HomeCards from "./HomeCards";
 import Reviews from "./Reviews";
+import Restaurants from "./Restaurants";
 const Screen = () =>{
     return (
         <>
@@ -11,8 +12,9 @@ const Screen = () =>{
         {/* <Home/> 
         <Hero/>
         <HomeCards/> */}
-        <Reviews/>
-        <Footer/>
+        {/* <Reviews/> */}
+        <Restaurants/>
+        {/* <Footer/> */}
         </>
     )
 }

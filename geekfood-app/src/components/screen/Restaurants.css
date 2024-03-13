@@ -1,0 +1,18 @@
+.restaurant-container{
+    padding-top: 100px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search {
+    height: 40px;
+    font-size: 16px;
+}
+
+.filter-bar {
+    padding-left: 50px;
+}
